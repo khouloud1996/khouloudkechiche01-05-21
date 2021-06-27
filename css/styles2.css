@@ -1,6 +1,9 @@
 
 body{
-    font-family: "Montserrat",sans-serif;}
+    font-family: "Montserrat",sans-serif;
+}
+
+/* Header */
 #header_principal {
     display:flex;
     flex-direction: row;
@@ -24,6 +27,11 @@ body{
      color: black;}
  .menu ul #hebergements{ 
      border-top: solid 1px #0065FC; }
+    
+/* Hébergement */
+#bloc_page {
+    width: 100%;
+}
 #trouver_votre_hèbergement{
      margin-top: 30px;}
 #trouver_votre_hèbergement h1{
@@ -142,7 +150,8 @@ body{
     background-color:#f2f2f2;
     padding-right: 5px;
     padding: 0px;
-    width: 900px;}
+    /* mettre la taille en % */
+    width: 65%}
 .figure{    
     background-color:#f2f2f2;
     border: solid white;
@@ -211,6 +220,14 @@ body{
     color: black;
     justify-content:space-between;
     align-items: baseline;}
+
+/* le style du titre */
+#titre_populaire h2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
 #aside{
     
     border-radius: 10px;
@@ -265,7 +282,9 @@ body{
     margin-bottom: 0px;
    font-size: 15px;}
 .bloc_page{
-    display: flex;}
+    display: flex;
+    width: 100%;
+}
 #activitees h3{
     margin-left: 20px;
     margin-top: 10px;
@@ -276,8 +295,7 @@ body{
     box-shadow: 3px 3px;}
 #bloc_activitees{
     display: flex;}
-.bloc_page{
-    display: flex;}
+
 #activitees figure{
     border-radius: 15px;
     margin:0;
